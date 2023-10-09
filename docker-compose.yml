@@ -7,3 +7,5 @@ services:
       - "3000:3000"
     volumes:
       - C:\Users\angel\OneDrive\Escritorio\examenDocker:/app
+    deploy:
+      replicas: 9
